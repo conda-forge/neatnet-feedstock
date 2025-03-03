@@ -1,5 +1,5 @@
 {% set name = "neatnet" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/neatnet-{{ version }}.tar.gz
-  sha256: 9cc044c3b2286560734a68ad349d027f56edef2bb8ed3c9c4c5818ee336755d7
+  sha256: fce2fd52858da1bc18be61f9da880e418c136bf973a9202f6dd642a4936400da
 
 build:
   noarch: python

@@ -35,13 +35,16 @@ requirements:
     - pandas >=2.2.3
     - scipy >=1.14.1
     - shapely >=2.0.6
+    - scikit-learn >=1.2.0
 
 tests:
   - python:
       imports:
         - neatnet
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Street geometry processing toolkit
